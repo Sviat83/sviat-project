@@ -1,3 +1,16 @@
 body {
     background-color: grey;
 }
+h1{
+    color: aqua;
+}
+.title {
+    border: 2px solid black; 
+    padding: 10px; 
+    display: inline-block;
+  }
+.img {
+    background-color: black;
+    height: 500px;
+    width: 300px;
+}
