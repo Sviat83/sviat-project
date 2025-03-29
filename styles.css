@@ -408,8 +408,118 @@ a{
         background-color: grey;
         color: aqua;
         transition: all .99s ease;
+       
       }
 
+
+
+      .start{
+        text-align: center;
+        margin-top: 50px;
+        padding-top: 50px;
+        }
+  
+      .good-cigars{
+        font-size: 40px;
+        color: gold;
+        margin-bottom: 40px;
+        }
+  
+        .arr2{
+        padding-left: 350px;
+        width: 500px;
+        height: auto;
+        margin-bottom: 10px;
+        
+        }
+  
+        .reputation{
+          font-size: 20px;
+          color: rgb(245, 244, 240);
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+        
+
+        .section{
+            position: relative;
+            background-image: url(https://cdn11.bigcommerce.com/s-c63ufk/product_images/uploaded_images/how-long-does-it-take-to-smoke-a-cigar.jpg);
+            background-size: cover;
+            background-position: center;
+           
+            
+        }
+
+        .aligned-section-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .row{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 20px;
+        }
+        
+        .aligned-section {
+            margin-top: 30px;
+            padding: 20px;  
+        }
+        
+        .group {
+            display: flex;  
+            justify-content: flex-start; 
+            align-items: center; 
+            margin: 10px 0; 
+        }
+        
+        .text-blok1{
+            width: 500px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .block1{
+            background-color: rgba(60, 19, 19, 0.537);
+        }
+
+       .block2{
+        background-color: rgba(10, 48, 48, 0.795);
+        }
+        
+        .image3 {
+            width: 500px;  
+            height: 300px; 
+            margin-left: 20px;  
+            margin: 0;
+        }
+        
+        .heading{
+            font-size: 20px;
+            font-weight: bold;
+            color: gold;
+            text-align: left;
+            margin-bottom: 10px;
+            display: block;
+         }
+
+        .text3 {
+            font-size: 20px; 
+            color: white; 
+            padding: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            margin: 0px; 
+        }
 
 
 
