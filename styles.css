@@ -676,4 +676,103 @@ a{
             }
 
 
+            /* section prices*/
+
+            .section-pricing{
+                background-color: rgb(32, 28, 28);
+                padding: 40px 20px;
+            }
+            
+             .pricing{
+                text-align: center;
+                margin-top: 50px;
+                padding-top: 50px;
+                }
+            
+              .prices{
+                font-size: 40px;
+                color: gold;
+                margin-bottom: 40px;
+                }
+            
+                .arr5{
+                padding-left: 360px;
+                width: 500px;
+                height: auto;
+                margin-bottom: 10px;
+                
+                }
+            
+                .assortment{
+                font-size: 20px;
+                color: rgb(231, 189, 21);
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+            
+            
+            .offers-container {
+                max-width: 1000px; 
+                margin: 0 auto; 
+                padding-top: 30px;
+              }
+              
+              .offers-list {
+                display: flex;
+                flex-direction: column; 
+                gap: 20px; 
+              }
+              
+              .offer-row {
+                display: flex;
+                align-items: center; 
+                justify-content: space-between; 
+                background-color: #5538381f; 
+                padding: 15px;
+                border-radius: 10px; 
+                max-width: 900px; 
+                margin: 0 auto; 
+              }
+              
+              .offer-icon {
+                width: 50px; 
+                height: 50px;
+                border-radius: 50%; 
+                object-fit: cover;
+                margin-right: 60px; 
+              }
+              
+              
+              .offer-name {
+                color: goldenrod;
+                font-size: 18px;
+                font-weight: bold;
+                min-width: 200px; 
+                font-family: Arial, Helvetica, sans-serif;
+              }
+              
+              
+              .offer-desc {
+                font-size: 18px;
+                color: rgb(244, 236, 221);
+                min-width: 250px; 
+                font-family: Arial, Helvetica, sans-serif;
+              }
+              
+                .order-btn {
+                background-color: #4a2c2a; 
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 14px;
+                transition: background-color 0.3s; 
+                font-family: Arial, Helvetica, sans-serif;
+              }
+              
+              .order-btn:hover {
+                background-color: #855b58; 
+              }
+            
   
