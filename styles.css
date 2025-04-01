@@ -183,8 +183,8 @@ a{
         margin-right: 50px;
         margin-left: 200px;
         padding-top: 50px;
-        width: 600px;
-        height: auto;
+        /*width: 600px;
+        height: auto;*/
     }
     .text-container{
         position: relative;
@@ -448,9 +448,7 @@ a{
             background-image: url(https://cdn11.bigcommerce.com/s-c63ufk/product_images/uploaded_images/how-long-does-it-take-to-smoke-a-cigar.jpg);
             background-size: cover;
             background-position: center;
-           
-            
-        }
+         }
 
         .aligned-section-container{
             display: flex;
@@ -524,7 +522,158 @@ a{
 
 
 
-  
+        .section2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(81, 80, 80);
+            
+         }
+
+         .origin-of-tabaccos{
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 50px;
+            }
+      
+          .origin{
+            font-size: 40px;
+            color: gold;
+            margin-bottom: 40px;
+            }
+      
+            .arr3{
+            padding-left: 350px;
+            width: 500px;
+            height: auto;
+            margin-bottom: 10px;
+            
+            }
+
+            .plantation{
+            font-size: 20px;
+            color: rgb(245, 244, 240);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .origin-of-tabaccos-discr{
+                text-align: center;
+                margin-left: 500px;
+                margin-right: 500px;
+            }
+
+            .quality{
+            font-size: 18px;
+            line-height: 1;
+            color: rgb(245, 244, 240);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif; 
+            padding: 20px 20px;   
+            margin: 0 50px;
+            }
+
+
+  /* section cooperation-with-us*/
+
+            .section-cooperation{
+                background-color: rgb(35, 33, 33);
+                padding: 40px 20px;
+            }
+            
+             .cooperation{
+                text-align: center;
+                margin-top: 50px;
+                padding-top: 50px;
+                }
+            
+              .cooperation-with-us{
+                font-size: 40px;
+                color: gold;
+                margin-bottom: 40px;
+                }
+            
+                .arr4{
+                padding-left: 350px;
+                width: 500px;
+                height: auto;
+                margin-bottom: 10px;
+                
+                }
+            
+                .cooperate{
+                font-size: 20px;
+                color: rgb(231, 189, 21);
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+            
+                
+            .cooperations-icon {
+                display: flex; 
+                justify-content: center;
+                gap: 20px; 
+                flex-wrap: wrap; 
+              }
+              
+              
+              .cooperations-icon div {
+                display: flex;
+                flex-direction: column; 
+                align-items: center; 
+                text-align: center; 
+                width: 300px;
+              }
+              
+             
+              .cooperations-icon img {
+                width: 100px;
+                height: auto; 
+                border-radius: 50%;
+                object-fit: cover; 
+                margin-bottom: 30px;
+              }
+              
+              
+              .cooperations-icon span {
+                font-weight: bold;
+                margin-bottom: 10px; 
+                color: rgb(231, 189, 21);
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+              }
+              
+             
+              .cooperations-icon p {
+                color: rgb(248, 248, 247);
+                margin: 0;
+                font-size: 14px; 
+              }
+            
+              .links-contact-learn{
+                display: flex;
+                justify-content: center;
+                margin-top: 40px;
+                gap: 15px;
+                font-size: small;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+              .link-contact-more{
+                display: flex;
+                justify-content: space-between;
+                background-color: gray;
+                padding: 10px 20px;
+                text-decoration: none;
+                color: inherit;
+                border: 2px solid whitesmoke;
+                border-radius: 5px;
+            }
+            
+            .link-contact-more:hover{
+                color: aqua;
+                transition: all .99s ease;
+            }
 
 
   
