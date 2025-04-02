@@ -678,18 +678,18 @@ a{
 
             /* section prices*/
 
-            .section-pricing{
+              .section-pricing{
                 background-color: rgb(32, 28, 28);
                 padding: 40px 20px;
             }
             
-             .pricing{
+              .pricing{
                 text-align: center;
                 margin-top: 50px;
                 padding-top: 50px;
                 }
             
-              .prices{
+               .prices{
                 font-size: 40px;
                 color: gold;
                 margin-bottom: 40px;
@@ -711,7 +711,7 @@ a{
                 }
             
             
-            .offers-container {
+              .offers-container {
                 max-width: 1000px; 
                 margin: 0 auto; 
                 padding-top: 30px;
@@ -759,7 +759,7 @@ a{
                 font-family: Arial, Helvetica, sans-serif;
               }
               
-                .order-btn {
+              .order-btn {
                 background-color: #4a2c2a; 
                 color: white;
                 padding: 10px 20px;
@@ -774,5 +774,98 @@ a{
               .order-btn:hover {
                 background-color: #855b58; 
               }
+
+
+              /* section years */
+.years {
+  background-color: #262325;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+
+.years-of {
+  text-align: center; 
+  margin-bottom: 40px; 
+}
+
+.years-of-quality {
+  color: gold;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.arr6 {
+  width: 500px; 
+  height: auto;
+  display: block;
+  margin: 30px 50px 20px auto;
+  padding-left: 400px;
+}
+
+.traditions {
+  font-size: 16px;
+  color:  #edeee2;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+.cut-sigar {
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+  max-width: 1000px; 
+}
+
+
+.img-cuts {
+  width: 50%; 
+  max-width: 500px; 
+  height: auto;
+}
+
+
+.text-container-made {
+  flex: 1; 
+  text-align: left;
+}
+
+.made-cigars {
+  color: gold;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.history-by-mading {
+  font-size: 12px;
+  color: #edeee2;
+  margin: 0; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  .cut-sigar {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .img-cuts {
+      width: 100%;
+      max-width: 400px;
+  }
+
+  .text-container {
+      text-align: center; 
+  }
+}
             
   
