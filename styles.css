@@ -103,21 +103,21 @@ a{
    }
 
 .image-container {
-    position: relative; /* Створює контекст для позиціонування дочірніх елементів */
-    height: 500px; /* Висота контейнера */
-    background-image: url('https://res2.weblium.site/res/5e4c09c58ccf9e00211e33d9/5e4d5b368037e50022ba8ddf?nowebp'); /* заднє зображення */
-    background-size: cover; /* Зображення покриває весь контейнер */
-    background-position: center; /* Центрує заднє зображення */
+    position: relative; 
+    height: 500px; 
+    background-image: url('https://res2.weblium.site/res/5e4c09c58ccf9e00211e33d9/5e4d5b368037e50022ba8ddf?nowebp'); 
+    background-size: cover; 
+    background-position: center; 
       }
 
-/* Переднє зображення */
+
 .foreground-img {
-    position: absolute; /* Абсолютне позиціонування для накладання */
-    bottom: 90px; /* Відступ знизу */
-    left: 50%; /* Розташування посередині контейнера */
-    transform: translateX(-50%); /* Центрування зображення по горизонталі */
-    width: 600px; /* Ширина переднього зображення */
-    height: auto; /* Зберігає пропорції зображення */
+    position: absolute; 
+    bottom: 90px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 600px; 
+    height: auto;
   
   }
   .navigation-link{
@@ -183,8 +183,7 @@ a{
         margin-right: 50px;
         margin-left: 200px;
         padding-top: 50px;
-        /*width: 600px;
-        height: auto;*/
+        
     }
     .text-container{
         position: relative;
@@ -356,7 +355,7 @@ a{
 
       .history-text{
         font-size: 10px;
-        color: rgb(184, 171, 100);
+        color:rgb(184, 171, 100);
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
       }
@@ -435,7 +434,7 @@ a{
   
         .reputation{
           font-size: 20px;
-          color: rgb(245, 244, 240);
+          color: rgb(220, 208, 145);
           text-align: center;
           font-family: Arial, Helvetica, sans-serif;
         }
@@ -552,7 +551,7 @@ a{
 
             .plantation{
             font-size: 20px;
-            color: rgb(245, 244, 240);
+            color: rgb(184, 171, 100);
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
             }
@@ -603,7 +602,7 @@ a{
             
                 .cooperate{
                 font-size: 20px;
-                color: rgb(231, 189, 21);
+                color: rgb(184, 171, 100);
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;
                 }
@@ -705,7 +704,7 @@ a{
             
                 .assortment{
                 font-size: 20px;
-                color: rgb(231, 189, 21);
+                color:rgb(184, 171, 100);
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;
                 }
@@ -809,7 +808,7 @@ a{
 
 .traditions {
   font-size: 16px;
-  color:  #edeee2;
+  color:  rgb(184, 171, 100);
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   
@@ -866,6 +865,90 @@ a{
   .text-container {
       text-align: center; 
   }
+
 }
+   /* section our brands*/
+
+   .brands-of-tabacco{
+    background-color: rgb(32, 28, 28);
+    padding: 40px 20px;
+}
+
+  .brands{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    }
+
+   .our-brands{
+    font-size: 40px;
+    color: gold;
+    margin-bottom: 40px;
+    }
+
+    .arr7{
+      padding-left: 350px;
+      width: 500px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .subsidiary-brands{
+    font-size: 20px;
+    color: rgb(184, 171, 100);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+  .offers-container-brand{
+    max-width: 1400px; 
+    margin: 0px auto; 
+    padding-top: 30px;
+  }
+  
+  .offers-list-brand {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .offer-row-brand{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #5538381f; 
+    padding: 20px;
+    border-radius: 10px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  .brand-icon {
+    width: 120px;
+    height: auto;
+    margin-right: 60px; 
+    padding: 30px;
+  }
+  
+  
+  .offer-name-brand {
+    color: rgb(215, 177, 80);
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 200px; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .offer-desc-brand {
+    font-size: 18px;
+    color: rgb(244, 236, 221);
+    min-width: 200px; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
             
   
