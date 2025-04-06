@@ -15,17 +15,17 @@ a{
 }
 
 .header{
-   
     padding-left: 80px;
     padding-right: 80px;
     background-color: rgb(37, 35, 35);
-}
+    }
 
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    
 }
 
 .logo-link{
@@ -948,7 +948,304 @@ a{
     min-width: 200px; 
     font-family: Arial, Helvetica, sans-serif;
   }
+
+
+
+
+
+  /* Секція засновники */
+  .section-our-founders {
+    background-color: #1a1a1a; 
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+ 
+  .header-founders {
+    margin-bottom: 40px;
+  }
+
+  .arr7{
+    padding-left: 350px;
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .header-founders h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: gold; 
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header-founders p {
+    font-size: 16px;
+    color: rgb(184, 171, 100);
+    font-family: Arial, Helvetica, sans-serif;
+  }
   
   
+  .our-founders-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .our-founders-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  .our-founders-item{
+    background-color: #2a2a2a; 
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .our-founders-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .our-founders-item p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .foto{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%; 
+   object-fit: cover;
+   margin-bottom: 20px;
+  }
+  
+  /* Соціальні іконки */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .social-icon:hover {
+    background-color: #d4af37;
+  }
+  
+  /* Адаптивність */
+  @media (max-width: 1024px) {
+    .our-founders-grid  {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .our-founders-grid  {
+      grid-template-columns: 1fr;
+    }
+  
+    .header-founders h2 {
+      font-size: 28px;
+    }
+  
+    .header-founders p {
+      font-size: 14px;
+    }
+  }
+
+
+
+
+
+  .testimonials-section {
+    background-color:  #2d2b2c; 
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  
+  .testimonials-header {
+    margin-bottom: 40px;
+  }
+  
+  .testimonials-header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: gold; 
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .testimonials-header p {
+    font-size: 18px;
+    color: rgb(184, 171, 100);
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  
+  
+  .testimonial-item {
+    background-color: #1b1a1a; 
+    padding: 30px;
+    border-radius: 10px;
+    
+  }
+  
+  .testimonial-item h3 {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .testimonial-item .position {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1;
+    color: #d4af37;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .testimonial-item .feedback {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .testimonial-item .date {
+    font-size: 14px;
+    text-align: center;
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Адаптивність */
+  @media (max-width: 1024px) {
+    .testimonials-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .testimonials-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .testimonials-header h2 {
+      font-size: 28px;
+    }
+  
+    .testimonials-header p {
+      font-size: 14px;
+    }
+  }
+  
+  /*  футер */
+.footer {
+  background-color: rgb(37, 35, 35); 
+  color: #fff;
+  padding: 10px 50px;
+  width: 90%;
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: rgb(37, 35, 35);
+  max-width: 1200px; 
+  margin: 0 auto;
+ 
+}
+
+/* Стилі для тексту */
+.footer-text {
+  font-size: 14px;
+  margin: 10px 10px;
+  color: #ccc; 
+  padding-top: 10px;
+}
+
+.footer-text.left {
+  text-align: left;
+}
+
+.footer-text.right {
+  text-align: right;
+}
+.footer-divider {
+  width: 100%; 
+  height: 1px; 
+  background-color: #ccc; 
+  margin: 0 20px; 
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .footer-text.left,
+  .footer-text.right {
+    text-align: center;
+  }
+  .footer-divider {
+    width: 150px; 
+    margin: 10px 0; 
+  }
+}
             
   
