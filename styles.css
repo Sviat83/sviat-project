@@ -176,7 +176,9 @@ a{
       .container{
         display: flex;
         align-items: center;
-        margin-left: 50px;
+        justify-content: center;
+        margin-top: 50px;
+       
     }
     
     .img{
@@ -201,6 +203,7 @@ a{
         position: relative;
         display: inline-block;
         color: gold;
+        margin-top: 50px;
     }
     
     .arrow{
@@ -413,6 +416,7 @@ a{
 
 
       .start{
+        
         text-align: center;
         margin-top: 50px;
         padding-top: 50px;
@@ -443,17 +447,19 @@ a{
         
 
         .section{
-            position: relative;
+            
             background-image: url(https://cdn11.bigcommerce.com/s-c63ufk/product_images/uploaded_images/how-long-does-it-take-to-smoke-a-cigar.jpg);
             background-size: cover;
             background-position: center;
+            margin-top: 50px;
+            padding-top: 20px;
          }
 
         .aligned-section-container{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+           
         }
         
         .row{
